@@ -1,22 +1,4 @@
-{{%define "*"%}}<!DOCTYPE html>
-
-    <div class="modal fade" id="redButton">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header btn-success">
-                    <h2 class="modal-title">fondoo.ru&nbsp;&mdash; не&nbsp;бизнес-проект</h2>
-                </div>
-                <div class="modal-body">
-                    <p>Ключевая цель не&nbsp;погоня за&nbsp;деньгами, а&nbsp;построение общественной организации, которая общими усилиями будет менять мир к&nbsp;лучшему (накопление капитала&nbsp;&mdash; лишь средство для более высоких целей).</p>
-                    <p>Поскольку общество, как население страны, всегда заинтересовано в&nbsp;стабильности и&nbsp;развитии страны, в&nbsp;отличие от&nbsp;бизнесмена, который заинтересован только в&nbsp;получении прибыли, оно может принимать шаги бесполезные с&nbsp;точки зрения бизнеса, но&nbsp;полезные для всей страны, т.е. общества.</p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Понятно</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
+{{%define "*"%}}
     <section id="intro" class="container">
         <div class="row">
             <h1 class="text-center">Добро пожаловать!</h1>
