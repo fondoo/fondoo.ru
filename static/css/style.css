@@ -1,0 +1,68 @@
+/* Copyright Dmitriy Blokhin (sv.dblokhin@gmail.com), http://www.webjinn.ru/ */
+html,body{height:100%; padding: 0; margin: 0; min-height: 100%;}
+
+.relative {position: relative}
+.absolute {position: absolute}
+.fixed {position: fixed}
+
+.block {display: block}
+.inline {display: inline}
+.inline-block {display: inline-block}
+
+.serif {'Times New Roman', Georgia, serif;}
+.sansserif {'Helvetica', Arial, Verdana, sans-serif}
+
+.text-center {text-align: center;}
+.text-justify {text-align: justify;}
+.text-right {text-align: right;}
+.text-left {text-align: left;}
+.indent {text-indent: 15px;}
+.bold {font-weight: bold;}
+
+.dashed {border-bottom: 1px dashed silver;}
+
+.hfill {height: 100%;min-height: 100%;}
+.wfill {width: 100%;}
+
+.nopadding {padding: 0}
+.padding {padding: 20px;}
+.padding-top {padding-top: 20px;}
+.padding-left {padding-left: 20px;}
+.padding-right {padding-right: 20px;}
+.padding-bottom {padding-bottom: 20px;}
+
+.nomargin {margin: 0}
+.margin {margin: 20px;}
+.margin-top {margin-top: 20px;}
+.margin-left {margin-left: 20px;}
+.margin-right {margin-right: 20px;}
+.margin-bottom {margin-bottom: 20px;}
+.icon-left {margin-right: 1em;}
+.icon-rigth {margin-left: 1em;}
+.margin-glyph {margin-left: 1em;}
+.margin-no-glyph {margin-left: 2em;}
+
+.larr-before:before {content: "\2190"; padding-right: 0.5em;}
+.rarr-before:before {content: "\2192"; padding-right: 0.5em;}
+.larr-after:after {content: "\2190"; padding-left: 0.5em;}
+.rarr-after:after {content: "\2192"; padding-left: 0.5em;}
+.uarr-before:before {content: "\2191"; padding-right: 0.5em;}
+.darr-before:before {content: "\2193"; padding-right: 0.5em;}
+.uarr-after:after {content: "\2191"; padding-left: 0.5em;}
+.darr-after:after {content: "\2193"; padding-left: 0.5em;}
+
+.rub:after {content: "\20bd"; padding-right: 0.5em;}
+.dash::before {content: '\2014'; padding-right: 0.5em;}
+
+.list-dashed li:before {content: '\2014'; padding-right: 0.5em;}
+.list-vline>li {color: red}
+.list-vline>li:after {content: '|'; padding-right: 0.5em; padding-left: 0.5em;}
+.list-vline>li:last-child:after {content: ''; padding-left: 0.5em;}
+
+
+.border {border: 1px solid black;}
+.noborder {border: none;}
+.nobg {background: none;}
+
+p.paragraph-dots {background: url('/images/dot.gif') 0 12px  repeat-x}
+p.paragraph-dots span {padding-right: 3px; background: white;}

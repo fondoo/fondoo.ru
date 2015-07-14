@@ -1,0 +1,11 @@
+*/.idea/*
+*.iml
+.directory
+main
+pkg
+out
+*.idea
+*.log
+/src/github.com
+/src/golang.org
+/src/code.google.com
